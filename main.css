@@ -1,0 +1,120 @@
+/* Jim Wolf 2016 RefactorU */
+
+/* Tables CSS Exercise*/
+
+
+.exe1 tr {
+    border-bottom: 1px solid #D3D3D3;
+   
+}
+
+.exe1 td {
+    padding: 7px 125px 7px 0px;
+}
+
+.exe1 th {
+    padding: 7px 0px;
+}
+
+.exe1 .noborder {
+    border: none;
+}
+
+
+/* Stats CSS Exercise */
+
+.exe2 {
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.exe2 td {
+    padding: 15px 25px ;
+    
+}
+
+.exe2 .label {
+    font-size: 12px;
+    color: #d3d3d3;
+    text-align:center;
+}
+
+.exe2 .prominent {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Bar Chart */
+.exe3 td {
+    font-size: 14px;
+    width: 100%;
+    color: #fff;
+}
+
+.exe3 th {
+text-align: right;
+white-space: nowrap;
+padding-right: 10px;
+}
+
+.exe3 .bar {
+     background-color: #599EDE; 
+     padding: 3px;
+     border-top-right-radius: 3px;
+     border-bottom-right-radius: 3px;
+}
+
+/* Light Box */
+
+
+/* Deactivate-----
+
+.exe4>.outterbox {
+    z-index: 100;
+    background-color: rgba(88, 88, 88, .8);
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.exe4 .innerbox {
+    background-color: #fff;
+    width: 450px;
+    padding : 15px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.exe4 .button {
+    width: 100px;
+    border-radius: 5px;
+    background-color: #f2303d;
+    text-align: center;
+    padding: 10px 0px;
+    margin-left: 75%;
+}
+
+.exe4 .button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+-----*/
+
+/*--Media Block--*/
+.exe5 img {
+    float: left;
+    padding-right: 10px;
+}
+
+.exe5 p {
+    padding-left: 65px;
+}
+
+.exe5 .indent {
+    margin-left: 100px;
+}
